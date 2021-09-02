@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/team-logo.png">
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" 
+    crossorigin="anonymous">
+
     <link rel="stylesheet" href="index.css">
     <title>Help Farmer website</title>
 </head>
@@ -12,64 +18,40 @@
         <div class="logo">
             <img src="./assets/images/team-logo.png" alt="">
         </div>
-        <div class="menu">
+        <div class="menu ml-auto">
             <a href="#">Home</a>
             <a href="#">Gallery</a>
             <a href="#">Contact</a>
             <a href="#">about us</a>
         </div>
-        <div class="toggle">
-            <h4>Toggle button</h4>
+        <ul class="nav nav-pills">
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: aqua;" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Toggle</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+    </div>
+
+    
+    <div class="searchbox">
+        <div class="srch">
+            <input type="text" name="weather" id="wea" class="inpvalue">
+            <button type="submit" name="weather" class="searchbtn" onclick="show()">SEARCH</button>
+        </div>
+        <div class="srchdata">
+            <div class="cityname">Searching..</div>
+            <div class="temper">Temp..</div>
+            <div class="des">Description..</div>
         </div>
     </div>
-
-    <div class="slider">
-        <div class="slidee">
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
-            <input type="radio" name="radio-btn" id="radio4">
-        
-            <div class="slide first">
-                <img src="./assets/images/team-logo.png" alt="">
-            </div>
-
-            <div class="slide">
-                <img src="./assets/images/team-logo.png" alt="">
-            </div>
-
-            <div class="slide">
-                <img src="./assets/images/team-logo.png" alt="">
-            </div>
-
-            <div class="slide">
-                <img src="./assets/images/team-logo.png" alt="">
-            </div>
-
-            <div class="nav-auto">
-                <div class="auto-btn1"></div>
-                <div class="auto-btn2"></div>
-                <div class="auto-btn3"></div>
-                <div class="auto-btn4"></div>
-            </div>
-            
-            <div class="nav-manual">
-                <label for="radio1" class="manual-btn"></label>
-                <label for="radio2" class="manual-btn"></label>
-                <label for="radio3" class="manual-btn"></label>
-                <label for="radio4" class="manual-btn"></label>
-            </div>
-        </div>     
-    </div>
-    <script type="text/javascript"  >
-    var counter =1 ;
-    setInterval( function() {
-        document.getElementById('radio' + counter ).checked= true;
-        counter ++ ;
-        if(counter > 4 ){
-            counter=1;
-        }
-    }, 5000);
+    <script src="./assets/js/logic.js" >
     </script>
 </body>
 </html>
