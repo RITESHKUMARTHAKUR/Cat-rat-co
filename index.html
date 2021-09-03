@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/images/team-logo.png">
-    <link 
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" 
-    crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./style.css">
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <title>Help Farmer website</title>
 </head>
+
 <body>
-   
+
     <header>
         <div id="menu-bars" class="fas fa-bars"></div>
         <nav class="navbar">
             <a href="#home">Home</a>
+            <a href="#portfolio">Govt-Service</a>
+            <a href="#contact">Weather</a>
+            <a href="#blogs">Crops</a>
             <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#blogs">Blogs</a>
-            <a href="#contact">Contact</a>
         </nav>
     </header>
 
@@ -33,39 +40,58 @@
         <div class="content">
             <img class="tilt" src="assets/images/oip.jpg" alt="">
             <h3>Farmers<span> Help</span> Website</h3>
-            <p>We Feed  <span class="typing-text">World</span></p>
+            <p>We Feed <span class="typing-text">World</span></p>
             <a href="#about" class="btn">about us</a>
         </div>
 
     </section>
-    <!--about section starts-->
-    <section class="about" id="about">
 
-        <h1 class="heading">About <span>us</span></h1>
-        <div class="row">
-            <div class="image">
-                <img class="tilt" src="assets/images/team-logo.png">
-            </div>
 
-            <div class="content">
-                <h3>Our team name is <span>Cat Rat Co :-</span></h3>
-                <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, eaque sunt unde
-                    ducimus
-                    ex adipisci temporibus provident suscipit magnam reprehenderit? Odio aliquam voluptate ratione? Quas
-                    odio aliquid sit ipsam voluptas.</p>
-                <div class="box-container">
-                    <div class="box">
-                        <p><span>Team Members:-</span>Ritesh Thakur <br>Aditya Raj Awasthi<br>Harsh Khapre<br>Ishab Thakur </p>
-                        <p><span>gender:</span>Male</p>
-                        <p><span>experience:</span>1years</p>
-                        <p><span>freelance:</span>available</p>
-                    </div>
+    <!--govt-services section starts-->
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading"><span>Govt </span> Services</h1>
+        <div class="box-container">
+            <div class="box tilt">
+                <img src="assets/images/ph-1.jpg" alt="">
+                <div class="content">
+                    <a href="https://agricoop.nic.in/sites/default/files/Nam23122015.pdf" class="btn">NaM</a>
                 </div>
-                <a href="#" class="btn">Download Cv</a>
+            </div>
+            <div class="box tilt">
+                <img src="assets/images/ph-2.jpg" alt="">
+                <div class="content">
+                    <a href="https://agricoop.nic.in/sites/default/files/A3Pguidelines.pdf" class="btn">NFSM</a>
+                </div>
+            </div>
+            <div class="box tilt">
+                <img src="assets/images/ph-3.jpg" alt="">
+                <div class="content">
+                    <a href="https://agricoop.nic.in/sites/default/files/draftdisplan7813.pdf" class="btn">DNDM</a>
+                </div>
+            </div>
+            <div class="box tilt">
+                <img src="assets/images/ph-4.jpg" alt="">
+                <div class="content">
+                    <a href="https://agricoop.nic.in/sites/default/files/SMSP13.05.2014.pdf" class="btn">SMSP Guide</a>
+                </div>
+            </div>
+            <div class="box tilt">
+                <img src="assets/images/ph-5.jpg" alt="">
+                <div class="content">
+                    <a href="https://agricoop.nic.in/sites/default/files/guide_new_IT.pdf" class="btn">ICT GuidelIne</a>
+                </div>
+            </div>
+            <div class="box tilt">
+                <img src="assets/images/ph-6.jpg" alt="">
+                <div class="content">
+                    <a href="https://agricoop.nic.in/sites/default/files/negpa_prog.pdf" class="btn">NEGP-A</a>
+                </div>
             </div>
         </div>
     </section>
-    <!--Service section-->
+
+
+    <!--Service section-
     <section class="services" id="services">
         <h1 class="heading">My<span>services</span></h1>
         <div class="box-container">
@@ -106,97 +132,96 @@
             </div>
         </div>
     </section>
-    <!--Portfolio section starts-->
-    <section class="portfolio" id="portfolio">
-        <h1 class="heading"><span>My</span>Portfolio</h1>
-        <div class="box-container">
-            <div class="box tilt">
-                <img src="images/img-1.jpg" alt="">
-                <div class="content">
-                    <a href="#" class="btn">Learn more</a>
-                </div>
+   
+-->
+
+    <section class="contact" id="contact">
+        <h1 class="heading">City <span>Weather</span>&nbsp;<i class="fas fa-sun"></i> </h1>
+
+        <div class="searchbox">
+            <div class="srch">
+                <input type="text" name="weather" id="wea" class="inpvalue">
+                <button type="submit" name="weather" class="searchbtn" onclick="show()">SEARCH</button>
             </div>
-            <div class="box tilt">
-                <img src="images/img-2.jpg" alt="">
-                <div class="content">
-                    <a href="#" class="btn">Learn more</a>
-                </div>
-            </div>
-            <div class="box tilt">
-                <img src="images/img-3.jpg" alt="">
-                <div class="content">
-                    <a href="#" class="btn">Learn more</a>
-                </div>
-            </div>
-            <div class="box tilt">
-                <img src="images/img-4.jpg" alt="">
-                <div class="content">
-                    <a href="#" class="btn">Learn more</a>
-                </div>
-            </div>
-            <div class="box tilt">
-                <img src="images/img-5.jpg" alt="">
-                <div class="content">
-                    <a href="#" class="btn">Learn more</a>
-                </div>
-            </div>
-            <div class="box tilt">
-                <img src="images/img-6.jpg" alt="">
-                <div class="content">
-                    <a href="#" class="btn">Learn more</a>
-                </div>
+            <div class="srchdata">
+                <div class="cityname">Searching..</div>
+                <div class="temper">Temp..</div>
+                <div class="des">Description..</div>
             </div>
         </div>
+
     </section>
+
+
     <!--Blog section start here-->
     <section class="blogs" id="blogs">
-        <h1 class="heading">My <span>blogs</span></h1>
+        <h1 class="heading">Crops In <span>Different Season</span></h1>
         <div class="box-container">
             <div class="box tilt">
-                <img src="images/blog-img-1.jpg" alt="">
+                <img src="assets/images/ph-7.jpg" alt="">
                 <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, similique!Lorem ipsum dolor,
-                        sit amet consectetur adipisicing elit. Quos, aperiam.</p>
-                    <a href="#" class="btn">Learn more</a>
+                    <p>Kharif Crops which are popularly known as Monsoon Crops. Kharif crops are grown in wet & hot
+                        conditions. Few of the Kharif crops grown during monsoons in India are rice, maize, bajra, corn,
+                        and peas.</p>
+                    <a href="https://krishijagran.com/agriculture-world/kharif-crops-top-5-crops-to-grow-in-monsoon-season/"
+                        class="btn">Crops Grown In Monsoon Season</a>
                 </div>
             </div>
             <div class="box tilt">
-                <img src="images/blog-img-2.jpg" alt="">
+                <img src="assets/images/ph-9.jpg" alt="">
                 <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias minima aut voluptatum. Lorem
-                        ipsum, dolor sit amet consectetur adipisicing elit. Magni, nemo?</p>
-                    <a href="#" class="btn">Learn more</a>
+                    <p>The best vegetables that can be grown during the winter in India</p>
+                    <a href="https://www.ugaoo.com/knowledge-center/vegetables-to-grow-in-winter/" class="btn">Crops
+                        Grown In Winter Season</a>
                 </div>
             </div>
             <div class="box tilt">
-                <img src="images/blog-img-3.jpg" alt="">
+                <img src="assets/images/ph-10.jpg" alt="">
                 <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, possimus? Lorem ipsum dolor sit
-                        amet consectetur adipisicing elit. Quas, sequi!</p>
-                    <a href="#" class="btn">Learn more</a>
+                    <p>The good thing about summer vegetables is that the same ones can be continued in monsoon season
+                        as well</p>
+                    <a href="https://www.ugaoo.com/knowledge-center/summer-season-vegetables-to-grow/" class="btn">Crop
+                        Grown in Summer Season</a>
                 </div>
             </div>
         </div>
+        <!--about section starts-->
+        <section class="about" id="about">
+
+            <h1 class="heading">About <span>us</span></h1>
+            <div class="row">
+                <div class="image">
+                    <img class="tilt" src="assets/images/team-logo.png">
+                </div>
+
+                <div class="content">
+                    <h3>We are: <span>Cat Rat Co.</span></h3>
+                    <p class="info">We are the students of BIT Durg, 2nd Year from Computer Science and Engineering
+                        Branch.
+                        This website helps farmer as well as citizens to know about various government schemes related
+                        to farming and benefits of the same to the farmer. This website also tell real time weather
+                        report of the places you want to know.
+
+                    </p>
+                    <div class="box-container">
+                        <div class="box">
+                            <p><span>Team Members:</span><br>Ritesh Thakur <br>Aditya Raj Awasthi<br>Harsh
+                                Khapre<br>Ishab Thakur </p>
+                            <p><span>College:</span> Bhilai Institute of Technology, Durg</p>
+                            <p><span>Semester:</span> 3rd</p>
+                            <p><span>Source Code of this project: <a
+                                        href="https://github.com/RITESHKUMARTHAKUR/Cat-rat-co"><i
+                                            class='bx bxl-github'></i></a></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
-    <section class="contact" id="contact">
-        <h1 class="heading">contact <span>us</span></h1>
 
-
-    
-    <div class="searchbox">
-        <div class="srch">
-            <input type="text" name="weather" id="wea" class="inpvalue">
-            <button type="submit" name="weather" class="searchbtn" onclick="show()">SEARCH</button>
-        </div>
-        <div class="srchdata">
-            <div class="cityname">Searching..</div>
-            <div class="temper">Temp..</div>
-            <div class="des">Description..</div>
-        </div>
-    </div>
-    <script src="./assets/js/logic.js" >
+    <script src="./assets/js/logic.js">
     </script>
-     <script>
+    <script>
         let menu = document.querySelector('#menu-bars');
         let header = document.querySelector('header');
         menu.onclick = () => {
@@ -212,6 +237,7 @@
             loop: true,
             typeSpeed: 150
         });
-</script>
+    </script>
 </body>
+
 </html>

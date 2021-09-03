@@ -482,28 +482,37 @@ header .navbar a:hover{
   padding: 20px;
   border-color: rgb(216, 95, 48);
 }
-
-.searchbox .srch {
-  margin-top: 20vh;
-  margin-bottom: 10px;
+.contact{
+  background-image: url('./assets/images/ph-8.jpg');
 }
 
+.searchbox .srch {
+  margin-top: 10vh;
+  margin-bottom: 10px;
+}
 .searchbox .srch input {
-  width: 30em;
-  height: 2em;
+  width: 66em;
+  scale: 1;
+  height: 5em;
   -webkit-transition: 1s;
   transition: 1s;
+  font-size: 1em;
   border-radius: 5px;
   outline: none;
   text-align: center;
+  font-weight: 900;
+  letter-spacing: 2px;
   color: tomato
 }
 
 .searchbox .srch button {
+  margin-left: 15px;
   width: 6em;
+  font-weight: 700;
+  letter-spacing: 1px;
   border-radius: 5px;
   border: 2px solid #f64 !important;
-  height: 2em;
+  height: 3em;
   cursor: pointer;
 }
 
@@ -513,7 +522,8 @@ header .navbar a:hover{
 
 .searchbox .srch .searchbtn:hover {
  
-  color: #fff;
+  color: rgb(255, 255, 255);
+  background-color: #f64;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -521,13 +531,14 @@ header .navbar a:hover{
 .searchbox .srchdata {
   display: none;
   border-radius: 10%;
-  color: rgb(216, 102, 36);
+  color: rgb(255, 255, 255);
   margin: 10px auto 0px auto;
   padding: 2em 3em 1em 3em;
 }
 
 .searchbox .srchdata div {
   margin-bottom: 15px;
+  font-size: 30px;
 }
 
 .searchbox .srchdata .temper {
