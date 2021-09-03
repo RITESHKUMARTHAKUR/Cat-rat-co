@@ -9,38 +9,178 @@
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" 
     crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="index.css">
     <title>Help Farmer website</title>
 </head>
 <body>
+   
     <header>
-        <div class="navbar">
-            <div class="logo">
-                <img src="./assets/images/team-logo.png" alt="">
-            </div>
-            <div class="menu ml-auto">
-                <a href="./index.html">Home</a>
-                <a href="./gallery.html" target="_self">Gallery</a>
-                <a href="./contact.html">Contact</a>
-                <a href="./about.html">about us</a>
-            </div>
-            <ul class="nav nav-pills">
-               
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" style="color: aqua;" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Toggle</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Separated link</a></li>
-                  </ul>
-                </li>
-              </ul>
-        </div>
+        <div id="menu-bars" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
-    
+
+
+    <!--homesection starts:--->
+    <section class="home" id="home">
+        <div class="content">
+            <img class="tilt" src="assets/images/oip.jpg" alt="">
+            <h3>Farmers<span> Help</span> Website</h3>
+            <p>We Feed  <span class="typing-text">World</span></p>
+            <a href="#about" class="btn">about us</a>
+        </div>
+
+    </section>
+    <!--about section starts-->
+    <section class="about" id="about">
+
+        <h1 class="heading">About <span>us</span></h1>
+        <div class="row">
+            <div class="image">
+                <img class="tilt" src="assets/images/team-logo.png">
+            </div>
+
+            <div class="content">
+                <h3>Our team name is <span>Cat Rat Co :-</span></h3>
+                <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, eaque sunt unde
+                    ducimus
+                    ex adipisci temporibus provident suscipit magnam reprehenderit? Odio aliquam voluptate ratione? Quas
+                    odio aliquid sit ipsam voluptas.</p>
+                <div class="box-container">
+                    <div class="box">
+                        <p><span>Team Members:-</span>Ritesh Thakur <br>Aditya Raj Awasthi<br>Harsh Khapre<br>Ishab Thakur </p>
+                        <p><span>gender:</span>Male</p>
+                        <p><span>experience:</span>1years</p>
+                        <p><span>freelance:</span>available</p>
+                    </div>
+                </div>
+                <a href="#" class="btn">Download Cv</a>
+            </div>
+        </div>
+    </section>
+    <!--Service section-->
+    <section class="services" id="services">
+        <h1 class="heading">My<span>services</span></h1>
+        <div class="box-container">
+            <div class="box tilt">
+                <i class="fas fa-code"></i>
+                <h3>web development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, recusandae!</p>
+            </div>
+
+            <div class="box tilt">
+                <i class="fas fa-paint-brush"></i>
+                <h3>graphic designing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, recusandae!</p>
+            </div>
+
+            <div class="box tilt">
+                <i class="fas fa-bullhorn"></i>
+                <h3>seo marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, recusandae!</p>
+            </div>
+
+            <div class="box tilt">
+                <i class="fas fa-envelope"></i>
+                <h3>Email marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, recusandae!</p>
+            </div>
+
+            <div class="box tilt">
+                <i class="fas fa-mobile"></i>
+                <h3>Responsive website</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, recusandae!</p>
+            </div>
+
+            <div class="box tilt">
+                <i class="fab fa-wordpress"></i>
+                <h3>wordpress</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, recusandae!</p>
+            </div>
+        </div>
+    </section>
+    <!--Portfolio section starts-->
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading"><span>My</span>Portfolio</h1>
+        <div class="box-container">
+            <div class="box tilt">
+                <img src="images/img-1.jpg" alt="">
+                <div class="content">
+                    <a href="#" class="btn">Learn more</a>
+                </div>
+            </div>
+            <div class="box tilt">
+                <img src="images/img-2.jpg" alt="">
+                <div class="content">
+                    <a href="#" class="btn">Learn more</a>
+                </div>
+            </div>
+            <div class="box tilt">
+                <img src="images/img-3.jpg" alt="">
+                <div class="content">
+                    <a href="#" class="btn">Learn more</a>
+                </div>
+            </div>
+            <div class="box tilt">
+                <img src="images/img-4.jpg" alt="">
+                <div class="content">
+                    <a href="#" class="btn">Learn more</a>
+                </div>
+            </div>
+            <div class="box tilt">
+                <img src="images/img-5.jpg" alt="">
+                <div class="content">
+                    <a href="#" class="btn">Learn more</a>
+                </div>
+            </div>
+            <div class="box tilt">
+                <img src="images/img-6.jpg" alt="">
+                <div class="content">
+                    <a href="#" class="btn">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Blog section start here-->
+    <section class="blogs" id="blogs">
+        <h1 class="heading">My <span>blogs</span></h1>
+        <div class="box-container">
+            <div class="box tilt">
+                <img src="images/blog-img-1.jpg" alt="">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, similique!Lorem ipsum dolor,
+                        sit amet consectetur adipisicing elit. Quos, aperiam.</p>
+                    <a href="#" class="btn">Learn more</a>
+                </div>
+            </div>
+            <div class="box tilt">
+                <img src="images/blog-img-2.jpg" alt="">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias minima aut voluptatum. Lorem
+                        ipsum, dolor sit amet consectetur adipisicing elit. Magni, nemo?</p>
+                    <a href="#" class="btn">Learn more</a>
+                </div>
+            </div>
+            <div class="box tilt">
+                <img src="images/blog-img-3.jpg" alt="">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, possimus? Lorem ipsum dolor sit
+                        amet consectetur adipisicing elit. Quas, sequi!</p>
+                    <a href="#" class="btn">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h1 class="heading">contact <span>us</span></h1>
+
 
     
     <div class="searchbox">
@@ -56,5 +196,22 @@
     </div>
     <script src="./assets/js/logic.js" >
     </script>
+     <script>
+        let menu = document.querySelector('#menu-bars');
+        let header = document.querySelector('header');
+        menu.onclick = () => {
+            menu.classList.toggle('fa-times');
+            header.classList.toggle('active');
+        }
+        window.onscroll = () => {
+            menu.classList.remove('fa-times');
+            header.classlist.remove('active');
+        }
+        var typed = new Typed('.typing-text', {
+            strings: ['World', 'Human'],
+            loop: true,
+            typeSpeed: 150
+        });
+</script>
 </body>
 </html>
