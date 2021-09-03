@@ -136,6 +136,7 @@ header .navbar a:hover{
 }
 
 .home .content img{
+  margin-bottom: 50px;
   height: 25rem;
   width:25rem;
   border-radius: 50%;
