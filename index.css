@@ -115,6 +115,48 @@ body {
 }
 
 .team-name {
-  font-family: 'Poppins', sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+
+.team-name h1, .team-name h2 {
+  text-align: center;
+}
+
+.team-name .ht {
+  word-spacing: 30px;
+  letter-spacing: 8px;
+}
+
+.team-name h1 {
+  padding: 20px;
+}
+
+.team-name .row {
+  margin-top: 3em;
+}
+
+.team-name .member1, .team-name .member2, .team-name .member3, .team-name .member4 {
+  font-family: sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.team-name .member1 .me1-img .m1-i, .team-name .member1 .me1-img .m2-i, .team-name .member1 .me1-img .m3-i, .team-name .member1 .me1-img .m4-i, .team-name .member1 .me2-img .m1-i, .team-name .member1 .me2-img .m2-i, .team-name .member1 .me2-img .m3-i, .team-name .member1 .me2-img .m4-i, .team-name .member1 .me3-img .m1-i, .team-name .member1 .me3-img .m2-i, .team-name .member1 .me3-img .m3-i, .team-name .member1 .me3-img .m4-i, .team-name .member1 .me4-img .m1-i, .team-name .member1 .me4-img .m2-i, .team-name .member1 .me4-img .m3-i, .team-name .member1 .me4-img .m4-i, .team-name .member2 .me1-img .m1-i, .team-name .member2 .me1-img .m2-i, .team-name .member2 .me1-img .m3-i, .team-name .member2 .me1-img .m4-i, .team-name .member2 .me2-img .m1-i, .team-name .member2 .me2-img .m2-i, .team-name .member2 .me2-img .m3-i, .team-name .member2 .me2-img .m4-i, .team-name .member2 .me3-img .m1-i, .team-name .member2 .me3-img .m2-i, .team-name .member2 .me3-img .m3-i, .team-name .member2 .me3-img .m4-i, .team-name .member2 .me4-img .m1-i, .team-name .member2 .me4-img .m2-i, .team-name .member2 .me4-img .m3-i, .team-name .member2 .me4-img .m4-i, .team-name .member3 .me1-img .m1-i, .team-name .member3 .me1-img .m2-i, .team-name .member3 .me1-img .m3-i, .team-name .member3 .me1-img .m4-i, .team-name .member3 .me2-img .m1-i, .team-name .member3 .me2-img .m2-i, .team-name .member3 .me2-img .m3-i, .team-name .member3 .me2-img .m4-i, .team-name .member3 .me3-img .m1-i, .team-name .member3 .me3-img .m2-i, .team-name .member3 .me3-img .m3-i, .team-name .member3 .me3-img .m4-i, .team-name .member3 .me4-img .m1-i, .team-name .member3 .me4-img .m2-i, .team-name .member3 .me4-img .m3-i, .team-name .member3 .me4-img .m4-i, .team-name .member4 .me1-img .m1-i, .team-name .member4 .me1-img .m2-i, .team-name .member4 .me1-img .m3-i, .team-name .member4 .me1-img .m4-i, .team-name .member4 .me2-img .m1-i, .team-name .member4 .me2-img .m2-i, .team-name .member4 .me2-img .m3-i, .team-name .member4 .me2-img .m4-i, .team-name .member4 .me3-img .m1-i, .team-name .member4 .me3-img .m2-i, .team-name .member4 .me3-img .m3-i, .team-name .member4 .me3-img .m4-i, .team-name .member4 .me4-img .m1-i, .team-name .member4 .me4-img .m2-i, .team-name .member4 .me4-img .m3-i, .team-name .member4 .me4-img .m4-i {
+  width: 100px;
+}
+
+.team-name .member1 .me1-dis, .team-name .member1 .me2-dis, .team-name .member1 .me3-dis, .team-name .member1 .me4-dis, .team-name .member2 .me1-dis, .team-name .member2 .me2-dis, .team-name .member2 .me3-dis, .team-name .member2 .me4-dis, .team-name .member3 .me1-dis, .team-name .member3 .me2-dis, .team-name .member3 .me3-dis, .team-name .member3 .me4-dis, .team-name .member4 .me1-dis, .team-name .member4 .me2-dis, .team-name .member4 .me3-dis, .team-name .member4 .me4-dis {
+  padding-left: 15px;
+  color: #f0a0a0;
+}
+
+.team-name .member2, .team-name .member4 {
+  display: contents;
+}
+
+.team-name .member1, .team-name .member3 {
+  margin-left: 5em;
 }
 /*# sourceMappingURL=index.css.map */
